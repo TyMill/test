@@ -395,7 +395,7 @@ class Data_Base_Modelling():
 def main():
     st.title("Machine Learning Application for Automated EDA")
 
-    st.info("This Web Application is created and maintained by KLOAKA)
+    st.info("This Web Application is created and maintained by KLOAKA")
     
     activities = ["General EDA", "EDA For Linear Models", "Model Building for Classification Problem"]
     choice = st.sidebar.selectbox("Select Activities", activities)
