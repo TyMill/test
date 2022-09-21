@@ -394,9 +394,6 @@ class Data_Base_Modelling():
 
 def main():
     st.title("Machine Learning Application for Automated EDA")
-
-   st.info("This Web Application is created and maintained by *_DHEERAJ_ _KUMAR_ _K_*")
-    """https://github.com/DheerajKumar97"""
     activities = ["General EDA", "EDA For Linear Models", "Model Building for Classification Problem"]
     choice = st.sidebar.selectbox("Select Activities", activities)
 
@@ -663,8 +660,7 @@ def main():
 
     st.markdown('Automation is **_really_ _cool_**.')
     st.markdown('<style>h1{color: red;}</style>', unsafe_allow_html=True)
-    st.title("Credits and Inspiration")
-    """https://pycaret.org/"""
+
 
 
 if __name__ == '__main__':
