@@ -9,7 +9,6 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 import matplotlib
 import seaborn as sns
-from sklearn.pipeline import Pipeline
 from wordcloud import WordCloud
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import LabelEncoder
@@ -396,8 +395,8 @@ class Data_Base_Modelling():
 def main():
     st.title("Machine Learning Application for Automated EDA")
 
-    st.info("This Web Application is created and maintained by *_DHEERAJ_ _KUMAR_ _K_*")
-    """https://github.com/DheerajKumar97"""
+    st.info("This Web Application is created and maintained by KLOAKA)
+    
     activities = ["General EDA", "EDA For Linear Models", "Model Building for Classification Problem"]
     choice = st.sidebar.selectbox("Select Activities", activities)
 
